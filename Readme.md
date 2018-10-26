@@ -16,7 +16,12 @@ npm i underscore // voor array functionaliteiten in authorquiz
 npm i enzyme enzyme-adapter-react-16 --save-dev // testing library (ivm dev dependencies in juiste folder ivm package.json)
 npm --save install office-ui-fabric-react
 
-==== GIT created new repo react-apps
+==== GIT created new repo react-apps ==========
 git init (in d:\data\react-apps)
 git remote add origin https://github.com/MJBoes/react-apps.git
 Added .gitignore (content: node_modules/**)
+git add . (authorquiz vervolgens uit de cache gehaald met git rm --cached authorquiz -f omdat deze al een git repo bevat)
+git push -u origin master
+in autorquiz: git remote add origin https://github.com/MJBoes/react-apps-authorquiz.git
+git push -u origin master
+===============================================
