@@ -25,3 +25,9 @@ git push -u origin master
 in autorquiz: git remote add origin https://github.com/MJBoes/react-apps-authorquiz.git
 git push -u origin master
 ===============================================
+Router
+npm i react-router-dom --save
+=== Add react tools to Chrome ===
+Google react dev tools
+=== SSL ===
+In firstreactapp\node_modules\react-scripts\scripts\start.js, add process.env.HTTPS = 'true'; on line 14
